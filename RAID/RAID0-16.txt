@@ -1,0 +1,219 @@
+SEQ1M_Q32T32: (g=0): rw=rw, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=libaio, iodepth=32
+...
+fio-3.39
+Starting 32 processes
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q32T32: Laying out IO file (1 file / 2MiB)
+
+SEQ1M_Q32T32: (groupid=0, jobs=32): err= 0: pid=6953: Thu Dec  4 18:49:17 2025
+  read: IOPS=3315, BW=3315MiB/s (3477MB/s)(97.9GiB/30233msec)
+    slat (usec): min=5, max=157864, avg=1490.13, stdev=6332.92
+    clat (usec): min=36, max=489866, avg=105999.97, stdev=48232.54
+     lat (msec): min=29, max=522, avg=107.49, stdev=48.01
+    clat percentiles (msec):
+     |  1.00th=[   33],  5.00th=[   40], 10.00th=[   50], 20.00th=[   65],
+     | 30.00th=[   77], 40.00th=[   87], 50.00th=[   99], 60.00th=[  112],
+     | 70.00th=[  127], 80.00th=[  146], 90.00th=[  174], 95.00th=[  194],
+     | 99.00th=[  243], 99.50th=[  268], 99.90th=[  317], 99.95th=[  334],
+     | 99.99th=[  388]
+   bw (  MiB/s): min= 1359, max= 4982, per=99.57%, avg=3301.28, stdev=21.41, samples=1824
+   iops        : min= 1337, max= 4970, avg=3286.37, stdev=21.43, samples=1824
+  write: IOPS=3318, BW=3318MiB/s (3479MB/s)(98.0GiB/30233msec); 0 zone resets
+    slat (usec): min=13, max=164948, avg=3516.88, stdev=10532.75
+    clat (msec): min=2, max=690, avg=195.71, stdev=87.57
+     lat (msec): min=29, max=690, avg=199.22, stdev=86.88
+    clat percentiles (msec):
+     |  1.00th=[   34],  5.00th=[   59], 10.00th=[   84], 20.00th=[  116],
+     | 30.00th=[  144], 40.00th=[  169], 50.00th=[  194], 60.00th=[  215],
+     | 70.00th=[  239], 80.00th=[  268], 90.00th=[  313], 95.00th=[  347],
+     | 99.00th=[  418], 99.50th=[  443], 99.90th=[  506], 99.95th=[  558],
+     | 99.99th=[  676]
+   bw (  MiB/s): min= 1599, max= 4980, per=99.51%, avg=3302.00, stdev=22.19, samples=1824
+   iops        : min= 1581, max= 4967, avg=3287.29, stdev=22.21, samples=1824
+  lat (usec)   : 50=0.01%, 500=0.01%, 1000=0.01%
+  lat (msec)   : 2=0.01%, 4=0.01%, 10=0.03%, 20=0.10%, 50=7.05%
+  lat (msec)   : 100=26.01%, 250=53.68%, 500=13.05%, 750=0.06%
+  cpu          : usr=2.67%, sys=2.73%, ctx=234254, majf=0, minf=937
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.3%, 32=99.5%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.1%, 64=0.0%, >=64=0.0%
+     issued rwts: total=100237,100318,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=32
+
+Run status group 0 (all jobs):
+   READ: bw=3315MiB/s (3477MB/s), 3315MiB/s-3315MiB/s (3477MB/s-3477MB/s), io=97.9GiB (105GB), run=30233-30233msec
+  WRITE: bw=3318MiB/s (3479MB/s), 3318MiB/s-3318MiB/s (3479MB/s-3479MB/s), io=98.0GiB (105GB), run=30233-30233msec
+
+Disk stats (read/write):
+    md0: ios=200474/200987, sectors=205285376/205454072, merge=0/0, ticks=12934465/26977960, in_queue=39912425, util=98.27%, aggrios=12529/12602, aggsectors=12830336/12840894, aggrmerge=0/0, aggrticks=807983/1687489, aggrin_queue=2495473, aggrutil=96.06%
+    dm-1: ios=12559/12740, sectors=12860416/13003792, merge=0/0, ticks=820722/1765893, in_queue=2586615, util=95.20%, aggrios=12559/12740, aggsectors=12860416/13003792, aggrmerge=0/0, aggrticks=427684/1368256, aggrin_queue=1796781, aggrutil=82.35%
+  loop1: ios=12559/12740, sectors=12860416/13003792, merge=0/0, ticks=427684/1368256, in_queue=1796781, util=82.35%
+    dm-10: ios=12324/12373, sectors=12619776/12630016, merge=0/0, ticks=802038/1689100, in_queue=2491138, util=95.02%, aggrios=12324/12373, aggsectors=12619776/12630016, aggrmerge=0/0, aggrticks=420252/1307069, aggrin_queue=1728188, aggrutil=79.85%
+  loop10: ios=12324/12373, sectors=12619776/12630016, merge=0/0, ticks=420252/1307069, in_queue=1728188, util=79.85%
+    dm-8: ios=12327/12379, sectors=12622848/12636160, merge=0/0, ticks=779911/1610899, in_queue=2390810, util=94.92%, aggrios=12327/12379, aggsectors=12622848/12636160, aggrmerge=0/0, aggrticks=403772/1233509, aggrin_queue=1638216, aggrutil=79.47%
+  loop8: ios=12327/12379, sectors=12622848/12636160, merge=0/0, ticks=403772/1233509, in_queue=1638216, util=79.47%
+    dm-6: ios=12668/12744, sectors=12972032/12879872, merge=0/0, ticks=803571/1668587, in_queue=2472158, util=96.06%, aggrios=12668/12744, aggsectors=12972032/12879872, aggrmerge=0/0, aggrticks=412208/1275294, aggrin_queue=1688255, aggrutil=80.70%
+  loop6: ios=12668/12744, sectors=12972032/12879872, merge=0/0, ticks=412208/1275294, in_queue=1688255, util=80.70%
+    dm-15: ios=12566/12583, sectors=12867584/12845056, merge=0/0, ticks=787123/1593630, in_queue=2380753, util=94.93%, aggrios=12566/12583, aggsectors=12867584/12845056, aggrmerge=0/0, aggrticks=403151/1209628, aggrin_queue=1613635, aggrutil=79.06%
+  loop15: ios=12566/12583, sectors=12867584/12845056, merge=0/0, ticks=403151/1209628, in_queue=1613635, util=79.06%
+    dm-4: ios=12672/12648, sectors=12976128/12883168, merge=0/0, ticks=788271/1605551, in_queue=2393822, util=94.88%, aggrios=12672/12648, aggsectors=12976128/12883168, aggrmerge=0/0, aggrticks=397273/1216136, aggrin_queue=1614224, aggrutil=80.19%
+  loop4: ios=12672/12648, sectors=12976128/12883168, merge=0/0, ticks=397273/1216136, in_queue=1614224, util=80.19%
+    dm-13: ios=12567/12588, sectors=12868608/12850176, merge=0/0, ticks=840300/1799196, in_queue=2639496, util=95.03%, aggrios=12567/12588, aggsectors=12868608/12850176, aggrmerge=0/0, aggrticks=452022/1410461, aggrin_queue=1863164, aggrutil=82.91%
+  loop13: ios=12567/12588, sectors=12868608/12850176, merge=0/0, ticks=452022/1410461, in_queue=1863164, util=82.91%
+    dm-2: ios=12554/12736, sectors=12855296/12998680, merge=0/0, ticks=765287/1570603, in_queue=2335890, util=95.20%, aggrios=12554/12736, aggsectors=12855296/12998680, aggrmerge=0/0, aggrticks=382267/1182175, aggrin_queue=1565355, aggrutil=79.51%
+  loop2: ios=12554/12736, sectors=12855296/12998680, merge=0/0, ticks=382267/1182175, in_queue=1565355, util=79.51%
+    dm-11: ios=12324/12373, sectors=12619776/12630016, merge=0/0, ticks=834889/1754958, in_queue=2589847, util=95.07%, aggrios=12324/12373, aggsectors=12619776/12630016, aggrmerge=0/0, aggrticks=451100/1370956, aggrin_queue=1822767, aggrutil=80.72%
+  loop11: ios=12324/12373, sectors=12619776/12630016, merge=0/0, ticks=451100/1370956, in_queue=1822767, util=80.72%
+    dm-0: ios=12559/12740, sectors=12860416/13003792, merge=0/0, ticks=789930/1645435, in_queue=2435365, util=95.20%, aggrios=12559/12740, aggsectors=12860416/13003792, aggrmerge=0/0, aggrticks=405871/1256080, aggrin_queue=1662790, aggrutil=81.38%
+  loop0: ios=12559/12740, sectors=12860416/13003792, merge=0/0, ticks=405871/1256080, in_queue=1662790, util=81.38%
+    dm-9: ios=12327/12379, sectors=12622848/12636160, merge=0/0, ticks=824562/1727609, in_queue=2552171, util=95.00%, aggrios=12327/12379, aggsectors=12622848/12636160, aggrmerge=0/0, aggrticks=446658/1348247, aggrin_queue=1795679, aggrutil=81.47%
+  loop9: ios=12327/12379, sectors=12622848/12636160, merge=0/0, ticks=446658/1348247, in_queue=1795679, util=81.47%
+    dm-7: ios=12668/12701, sectors=12972032/12879528, merge=0/0, ticks=817927/1707562, in_queue=2525489, util=95.65%, aggrios=12668/12701, aggsectors=12972032/12879528, aggrmerge=0/0, aggrticks=425813/1315114, aggrin_queue=1741694, aggrutil=81.26%
+  loop7: ios=12668/12701, sectors=12972032/12879528, merge=0/0, ticks=425813/1315114, in_queue=1741694, util=81.26%
+    dm-5: ios=12672/12748, sectors=12976128/12883968, merge=0/0, ticks=835190/1777061, in_queue=2612251, util=96.06%, aggrios=12672/12748, aggsectors=12976128/12883968, aggrmerge=0/0, aggrticks=445209/1385166, aggrin_queue=1831092, aggrutil=82.60%
+  loop5: ios=12672/12748, sectors=12976128/12883968, merge=0/0, ticks=445209/1385166, in_queue=1831092, util=82.60%
+    dm-14: ios=12566/12583, sectors=12867584/12845056, merge=0/0, ticks=809889/1661005, in_queue=2470894, util=94.91%, aggrios=12566/12583, aggsectors=12867584/12845056, aggrmerge=0/0, aggrticks=420858/1272073, aggrin_queue=1693765, aggrutil=80.72%
+  loop14: ios=12566/12583, sectors=12867584/12845056, merge=0/0, ticks=420858/1272073, in_queue=1693765, util=80.72%
+    dm-3: ios=12554/12737, sectors=12855296/12998688, merge=0/0, ticks=814478/1736724, in_queue=2551202, util=95.21%, aggrios=12554/12737, aggsectors=12855296/12998688, aggrmerge=0/0, aggrticks=428524/1345461, aggrin_queue=1774717, aggrutil=82.18%
+  loop3: ios=12554/12737, sectors=12855296/12998688, merge=0/0, ticks=428524/1345461, in_queue=1774717, util=82.18%
+    dm-12: ios=12567/12588, sectors=12868608/12850176, merge=0/0, ticks=813655/1686025, in_queue=2499680, util=94.95%, aggrios=12567/12588, aggsectors=12868608/12850176, aggrmerge=0/0, aggrticks=423483/1296448, aggrin_queue=1720658, aggrutil=80.66%
+  loop12: ios=12567/12588, sectors=12868608/12850176, merge=0/0, ticks=423483/1296448, in_queue=1720658, util=80.66%
+SEQ1M_Q1T32: (g=0): rw=rw, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=libaio, iodepth=1
+...
+fio-3.39
+Starting 32 processes
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+SEQ1M_Q1T32: Laying out IO file (1 file / 2MiB)
+
+SEQ1M_Q1T32: (groupid=0, jobs=32): err= 0: pid=7010: Thu Dec  4 18:50:01 2025
+  read: IOPS=518, BW=518MiB/s (544MB/s)(15.2GiB/30026msec)
+    slat (usec): min=43, max=30154, avg=111.68, stdev=760.39
+    clat (usec): min=88, max=33166, avg=30580.41, stdev=885.00
+     lat (usec): min=29266, max=33294, avg=30692.09, stdev=443.46
+    clat percentiles (usec):
+     |  1.00th=[29492],  5.00th=[29754], 10.00th=[30016], 20.00th=[30278],
+     | 30.00th=[30278], 40.00th=[30540], 50.00th=[30540], 60.00th=[30802],
+     | 70.00th=[30802], 80.00th=[31065], 90.00th=[31065], 95.00th=[31327],
+     | 99.00th=[31589], 99.50th=[31851], 99.90th=[32113], 99.95th=[32637],
+     | 99.99th=[33162]
+   bw (  KiB/s): min=221153, max=831384, per=100.00%, avg=531170.77, stdev=4142.38, samples=1920
+   iops        : min=  213, max=  810, avg=516.40, stdev= 4.04, samples=1920
+  write: IOPS=520, BW=520MiB/s (546MB/s)(15.3GiB/30026msec); 0 zone resets
+    slat (usec): min=47, max=29946, avg=180.02, stdev=1110.02
+    clat (usec): min=29240, max=33464, avg=30703.92, stdev=490.00
+     lat (usec): min=29347, max=63311, avg=30883.94, stdev=1311.67
+    clat percentiles (usec):
+     |  1.00th=[29754],  5.00th=[29754], 10.00th=[30016], 20.00th=[30278],
+     | 30.00th=[30540], 40.00th=[30540], 50.00th=[30802], 60.00th=[30802],
+     | 70.00th=[31065], 80.00th=[31065], 90.00th=[31327], 95.00th=[31327],
+     | 99.00th=[31851], 99.50th=[32375], 99.90th=[33162], 99.95th=[33424],
+     | 99.99th=[33424]
+   bw (  KiB/s): min=245620, max=837623, per=100.00%, avg=533225.00, stdev=4102.56, samples=1920
+   iops        : min=  232, max=  817, avg=518.40, stdev= 4.03, samples=1920
+  lat (usec)   : 100=0.01%, 500=0.01%, 1000=0.01%
+  lat (msec)   : 4=0.01%, 10=0.01%, 20=0.03%, 50=99.94%
+  cpu          : usr=0.11%, sys=0.28%, ctx=39799, majf=0, minf=303
+  IO depths    : 1=100.0%, 2=0.0%, 4=0.0%, 8=0.0%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=15564,15624,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=1
+
+Run status group 0 (all jobs):
+   READ: bw=518MiB/s (544MB/s), 518MiB/s-518MiB/s (544MB/s-544MB/s), io=15.2GiB (16.3GB), run=30026-30026msec
+  WRITE: bw=520MiB/s (546MB/s), 520MiB/s-520MiB/s (546MB/s-546MB/s), io=15.3GiB (16.4GB), run=30026-30026msec
+
+Disk stats (read/write):
+    md0: ios=31128/31589, sectors=31875072/32000680, merge=0/0, ticks=946246/962141, in_queue=1908387, util=98.39%, aggrios=1945/2014, aggsectors=1992192/2000061, aggrmerge=0/0, aggrticks=59133/61359, aggrin_queue=120493, aggrutil=95.88%
+    dm-1: ios=1919/2022, sectors=1965056/2029584, merge=0/0, ticks=58333/61665, in_queue=119998, util=94.83%, aggrios=1919/2022, aggsectors=1965056/2029584, aggrmerge=0/0, aggrticks=599/786, aggrin_queue=1449, aggrutil=2.20%
+  loop1: ios=1919/2022, sectors=1965056/2029584, merge=0/0, ticks=599/786, in_queue=1449, util=2.20%
+    dm-10: ios=1935/1996, sectors=1981440/2004992, merge=0/0, ticks=58814/60770, in_queue=119584, util=94.63%, aggrios=1935/1996, aggsectors=1981440/2004992, aggrmerge=0/0, aggrticks=594/746, aggrin_queue=1404, aggrutil=2.11%
+  loop10: ios=1935/1996, sectors=1981440/2004992, merge=0/0, ticks=594/746, in_queue=1404, util=2.11%
+    dm-8: ios=1942/2001, sectors=1988608/2010112, merge=0/0, ticks=58991/60945, in_queue=119936, util=94.87%, aggrios=1942/2001, aggsectors=1988608/2010112, aggrmerge=0/0, aggrticks=597/754, aggrin_queue=1417, aggrutil=1.97%
+  loop8: ios=1942/2001, sectors=1988608/2010112, merge=0/0, ticks=597/754, in_queue=1417, util=1.97%
+    dm-6: ios=1961/1972, sectors=2008064/1980416, merge=0/0, ticks=59627/60024, in_queue=119651, util=94.37%, aggrios=1961/1972, aggsectors=2008064/1980416, aggrmerge=0/0, aggrticks=590/720, aggrin_queue=1371, aggrutil=2.00%
+  loop6: ios=1961/1972, sectors=2008064/1980416, merge=0/0, ticks=590/720, in_queue=1371, util=2.00%
+    dm-15: ios=1961/1997, sectors=2008064/1980616, merge=0/0, ticks=59584/60809, in_queue=120393, util=94.92%, aggrios=1961/1997, aggsectors=2008064/1980616, aggrmerge=0/0, aggrticks=556/711, aggrin_queue=1327, aggrutil=1.91%
+  loop15: ios=1961/1997, sectors=2008064/1980616, merge=0/0, ticks=556/711, in_queue=1327, util=1.91%
+    dm-4: ios=1966/1975, sectors=2013184/1983488, merge=0/0, ticks=59801/60190, in_queue=119991, util=94.74%, aggrios=1966/1975, aggsectors=2013184/1983488, aggrmerge=0/0, aggrticks=591/723, aggrin_queue=1375, aggrutil=2.03%
+  loop4: ios=1966/1975, sectors=2013184/1983488, merge=0/0, ticks=591/723, in_queue=1375, util=2.03%
+    dm-13: ios=1966/2104, sectors=2013184/1985536, merge=0/0, ticks=59748/64037, in_queue=123785, util=95.88%, aggrios=1966/2104, aggsectors=2013184/1985536, aggrmerge=0/0, aggrticks=601/757, aggrin_queue=1419, aggrutil=2.06%
+  loop13: ios=1966/2104, sectors=2013184/1985536, merge=0/0, ticks=601/757, in_queue=1419, util=2.06%
+    dm-2: ios=1914/2021, sectors=1959936/2025512, merge=0/0, ticks=58211/61585, in_queue=119796, util=94.46%, aggrios=1914/2021, aggsectors=1959936/2025512, aggrmerge=0/0, aggrticks=598/771, aggrin_queue=1428, aggrutil=2.12%
+  loop2: ios=1914/2021, sectors=1959936/2025512, merge=0/0, ticks=598/771, in_queue=1428, util=2.12%
+    dm-11: ios=1935/1996, sectors=1981440/2004992, merge=0/0, ticks=58802/60786, in_queue=119588, util=94.63%, aggrios=1935/1996, aggsectors=1981440/2004992, aggrmerge=0/0, aggrticks=587/748, aggrin_queue=1403, aggrutil=2.05%
+  loop11: ios=1935/1996, sectors=1981440/2004992, merge=0/0, ticks=587/748, in_queue=1403, util=2.05%
+    dm-0: ios=1919/2021, sectors=1965056/2029576, merge=0/0, ticks=58301/61542, in_queue=119843, util=94.83%, aggrios=1919/2021, aggsectors=1965056/2029576, aggrmerge=0/0, aggrticks=611/771, aggrin_queue=1447, aggrutil=1.98%
+  loop0: ios=1919/2021, sectors=1965056/2029576, merge=0/0, ticks=611/771, in_queue=1447, util=1.98%
+    dm-9: ios=1942/2001, sectors=1988608/2010112, merge=0/0, ticks=59069/60952, in_queue=120021, util=94.91%, aggrios=1942/2001, aggsectors=1988608/2010112, aggrmerge=0/0, aggrticks=584/738, aggrin_queue=1388, aggrutil=2.11%
+  loop9: ios=1942/2001, sectors=1988608/2010112, merge=0/0, ticks=584/738, in_queue=1388, util=2.11%
+    dm-7: ios=1961/1972, sectors=2008064/1980416, merge=0/0, ticks=59596/60084, in_queue=119680, util=94.40%, aggrios=1961/1972, aggsectors=2008064/1980416, aggrmerge=0/0, aggrticks=579/700, aggrin_queue=1337, aggrutil=2.00%
+  loop7: ios=1961/1972, sectors=2008064/1980416, merge=0/0, ticks=579/700, in_queue=1337, util=2.00%
+    dm-5: ios=1966/1975, sectors=2013184/1983488, merge=0/0, ticks=59775/60152, in_queue=119927, util=94.76%, aggrios=1966/1975, aggsectors=2013184/1983488, aggrmerge=0/0, aggrticks=578/716, aggrin_queue=1355, aggrutil=1.91%
+  loop5: ios=1966/1975, sectors=2013184/1983488, merge=0/0, ticks=578/716, in_queue=1355, util=1.91%
+    dm-14: ios=1961/2100, sectors=2008064/1981440, merge=0/0, ticks=59556/63898, in_queue=123454, util=95.87%, aggrios=1961/2100, aggsectors=2008064/1981440, aggrmerge=0/0, aggrticks=574/724, aggrin_queue=1359, aggrutil=1.99%
+  loop14: ios=1961/2100, sectors=2008064/1981440, merge=0/0, ticks=574/724, in_queue=1359, util=1.99%
+    dm-3: ios=1914/2027, sectors=1959936/2025560, merge=0/0, ticks=58193/61739, in_queue=119932, util=94.50%, aggrios=1914/2027, aggsectors=1959936/2025560, aggrmerge=0/0, aggrticks=591/767, aggrin_queue=1417, aggrutil=1.91%
+  loop3: ios=1914/2027, sectors=1959936/2025560, merge=0/0, ticks=591/767, in_queue=1417, util=1.91%
+    dm-12: ios=1966/2055, sectors=2013184/1985144, merge=0/0, ticks=59738/62577, in_queue=122315, util=95.29%, aggrios=1966/2055, aggsectors=2013184/1985144, aggrmerge=0/0, aggrticks=570/716, aggrin_queue=1345, aggrutil=2.05%
+  loop12: ios=1966/2055, sectors=2013184/1985144, merge=0/0, ticks=570/716, in_queue=1345, util=2.05%

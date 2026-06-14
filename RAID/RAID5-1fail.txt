@@ -1,0 +1,30 @@
+/dev/md0:
+           Version : 1.2
+     Creation Time : Thu Dec  4 21:38:23 2025
+        Raid Level : raid5
+        Array Size : 200704 (196.00 MiB 205.52 MB)
+     Used Dev Size : 100352 (98.00 MiB 102.76 MB)
+      Raid Devices : 3
+     Total Devices : 3
+       Persistence : Superblock is persistent
+
+       Update Time : Thu Dec  4 21:39:09 2025
+             State : clean 
+    Active Devices : 3
+   Working Devices : 3
+    Failed Devices : 0
+     Spare Devices : 0
+
+            Layout : left-symmetric
+        Chunk Size : 512K
+
+Consistency Policy : resync
+
+              Name : arch-usb:0  (local to host arch-usb)
+              UUID : 6d9488d1:3946cea0:e6ce93fd:44ef2e66
+            Events : 18
+
+    Number   Major   Minor   RaidDevice State
+       0     252        0        0      active sync   /dev/dm-0
+       1     252        1        1      active sync   /dev/dm-1
+       3     252        2        2      active sync   /dev/dm-2

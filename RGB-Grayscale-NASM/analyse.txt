@@ -1,0 +1,31 @@
+# Analyse de Performance - Laboratoire 1
+
+## Configuration
+- Processeur: AMD Ryzen 7 7730U
+- Architecture: Zen 3
+
+## Résultats des tests
+
+| Version | Itérations | Temps réel |
+|---------|------------|------------|
+| x87     | 10         | 1.686 s    |
+| SSE2    | 10,000     | 42.224 s   |
+| AVX2    | 10,000     | 28.063 s   |
+
+## Adaptation des itérations
+Réduction nécessaire car x87 trop lent:
+- x87: 10 itérations (au lieu de 100k)
+- SSE2/AVX2: 10k itérations
+
+## Performances normalisées (pour 1k itérations)
+- x87: 168.6 s
+- SSE2: 4.222 s  
+- AVX2: 2.806 s
+
+## Facteurs d'accélération
+- SSE2/x87: 39.9×
+- AVX2/x87: 60.1×
+- AVX2/SSE2: 1.50×
+
+## Conclusion
+x87 obsolète (très lent), SSE2 40× plus rapide, AVX2 60× plus rapide avec meilleure optimisation vectorielle sur Ryzen 7.
